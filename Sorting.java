@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class S20170182 extends JFrame{
+public class Sorting extends JFrame{
 
     private JLabel title, text1, text2, text3;
     private JTextField box1, box2, box3;
     private JButton sort, reset;
 
-    public S20170182() {
+    public Sorting() {
         super("Number Ascending");
         Container con = getContentPane();
         con.setLayout(new FlowLayout());
@@ -93,7 +93,7 @@ public class S20170182 extends JFrame{
     }
 
     public static void main(String[] arg){
-        S20170182 app = new S20170182();
+        Sorting app = new Sorting();
         app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
